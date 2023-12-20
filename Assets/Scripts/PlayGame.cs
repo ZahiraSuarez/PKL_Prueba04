@@ -8,6 +8,6 @@ public class PlayGame : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Return)) SCManager.instance.LoadScene("Game");
-        print("HOLA");
+        print("ADIOS");
     }
 }

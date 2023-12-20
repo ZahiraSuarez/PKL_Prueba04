@@ -9,5 +9,6 @@ public class PlayGame : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Return)) SCManager.instance.LoadScene("Game");
         print("HOLA");
+        print("HOLA");
     }
 }
